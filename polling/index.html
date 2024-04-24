@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pooling</title>
+   
+</head>
+<body>
+    <div class="background-container">
+    <div class="container">
+        <h1>Poll Your fav!!!</h1>
+        <div class="poll-form">
+            <p>Which is your favorite language?</p>
+            <input type="radio" id="python" name="language" value="Python">
+            <label for="python">Python</label><br>
+            <input type="radio" id="ruby" name="language" value="Ruby">
+            <label for="ruby">Ruby</label><br>
+            <input type="radio" id="javascript" name="language" value="JavaScript">
+            <label for="javascript">JavaScript</label><br>
+            
+            <button onclick="submitAnswer()">Submit</button>
+        </div><br><br>
+        <div class="chart-container">
+            <canvas id="pie-chart"></canvas>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    </div>
+</body>
+</html>

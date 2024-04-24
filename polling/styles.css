@@ -1,0 +1,49 @@
+.container {
+    
+    justify-content: space-around;
+    margin-top: 50px;
+    border: 5px rgb(66, 124, 90);
+    
+}
+
+.poll, .chart {
+    width: 45%;
+}
+
+.chart canvas {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.poll-form{
+    border:5px  palevioletred;
+    padding-left: 200px;
+}
+
+input {
+    color: solid black; 
+
+}
+h1 {
+    color: solid black ; 
+}
+.background-container {
+    background-image: url("pol.jpg");
+    
+    background-size: cover; /* Adjusts the background image size to cover the entire container */
+    background-position: center; /* Centers the background image */
+    
+    
+}
+body{
+    background-color: black
+    
+}
+label {
+    font-weight: bold;
+    font-size: xx-large;
+}
+p{
+    font-weight: bold;
+    font-size: xx-large;
+}
